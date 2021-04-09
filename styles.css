@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primarycolor :  #1F2937;
+    --violet : #7C3AED;
+    --gray :  #A1A1AA;
+    --blue : #0284C7;
+    --twitterblue : rgba(29,161,242,1.00);
+    --darkgray : #262626;
+    ;
+}
+
+body{
+    /* background-color: black; */
+    /* background: linear-gradient(to right, black , gray); */
+    background-color: white;
+    color : black; 
+    margin : 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border: 0 solid var(--gray);
+    margin: 2rem 0rem;
+}
+
+h1{
+    color: var(--gray);
+    text-align: center;
+    padding : 1rem 0rem;
+}
+
+h2{
+    text-align: center;
+    padding : rem 0rem;
+}
+
+#stripesicon{
+    width : 25px;
+    /* border : 2px solid black; */
+    /* border-radius : 5px; */
+    padding : 2px;
+}
+
+.collapse-btn{
+    text-align : right;
+    transform : translateY(-10px);
+}
+
+.triangle-btn{
+    transform : rotate(-30deg);
+    width : 12px;
+    padding-bottom : 2px;
+}
+
+.image{
+    display: block;
+    margin : 0 auto;
+}
+
+.color-invert{
+    color : var(--twitterblue);
+}
+
+section{
+    padding :2rem;
+}
+
+.offwhite{
+    background-color: black;
+    color : white;
+    /* padding : 1rem 0rem; */
+}
+
+.container-center{
+    max-width: 800px;
+    margin:auto;
+}
+
+.container-header{
+    color: black;
+    background-color: var(--twitterblue);
+    border-bottom-left-radius: 2rem;
+    padding : 0.5rem 1rem;
+    margin-bottom : 2rem;
+    height: 82px;
+}
+
+.container-footer{
+    color: black;
+    background-color: var(--twitterblue);
+    text-align: center;
+    border-top-right-radius: 2rem;
+    padding : 0.5rem 1rem;
+    margin-top : 2rem;
+}
+
+.nav-list{
+    text-align: right;
+}
+
+.nav-brand{
+    font-size: 1.5rem;
+    text-align : center;
+    transform : translateY(1.7rem);
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    padding : 0.5rem 1rem; 
+}
+
+.link-primary{
+    background-color: var(--twitterblue); 
+    color: white;
+    border-radius: 0.5rem;  
+}
+
+.link-secondary{
+    color : var(--twitterblue);
+    font-weight : bold;
+    border-radius: 0.5rem;  
+    border : 1px solid var(--twitterblue);
+}
+
+.link-active{
+    font-weight: bold; 
+}
+
+@media(max-width : 875px){
+    /* .container-header{
+        background-color: red;
+    } */
+    .nav-list{
+        display: none;
+    }
+    .image{
+        width : 100%;
+    }
+} 
+
+.container-footer ul{
+    padding-left : 0px;
+}
