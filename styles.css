@@ -93,6 +93,7 @@ section{
     border-top-right-radius: 2rem;
     padding : 0.5rem 1rem;
     margin-top : 2rem;
+    height: 82px;
 }
 
 .nav-list{
@@ -120,7 +121,7 @@ section{
     padding : 0.5rem 1rem; 
 }
 
-.link:hover{
+.container-footer .list-inline:hover ,.container-header .list-inline:hover{
     font-weight : bold;
 }
 
@@ -155,4 +156,8 @@ section{
 
 .container-footer ul{
     padding-left : 0px;
+}
+
+.footer-heading{
+    padding-top : 15px;
 }
